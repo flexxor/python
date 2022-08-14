@@ -1,4 +1,4 @@
-input = 20
+in_val = 20
 
 def normalize(value_to_normalize, max_value = 40, min_value = 0, target_max = 255, target_min = 0):
     value_to_normalize = min(value_to_normalize, max_value)
@@ -10,4 +10,4 @@ def normalize(value_to_normalize, max_value = 40, min_value = 0, target_max = 25
     target_value = max(target_value, target_min)
     print(f"Result: {target_value}")
 
-normalize(20)
+normalize(in_val)
